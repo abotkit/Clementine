@@ -104,10 +104,10 @@ app.post('/settings', async (req, res) => {
 });
 
 /*
-  Use this endpoint to return a static ressource
+  Use this endpoint to return a static resource
 */
-app.get('/ressouce', (req, res) => {
-  res.status(200).send('Any resssource.')
+app.get('/resource', (req, res) => {
+  res.status(200).send('Any resource.')
 })
 
 /*
