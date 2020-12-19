@@ -24,6 +24,15 @@ Hint: if there is already a fork of clementine in your account/organization the 
   git push origin main
   ```
 
+## Get the latest changes
+
+Sometimes we will change some functions or api endpoints of clementine. Fetch these updates using:
+
+```zsh
+git fetch upstream
+git merge upstream/main
+```
+
 # Environment variables
 
 |         name        |        description             |    default           |
